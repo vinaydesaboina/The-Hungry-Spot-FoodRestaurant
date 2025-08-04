@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gourmet Haven - Exquisite Dining</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header"> <div class="sticky-nav-wrapper">
+            <nav>
+                <div class="logo">
+                    <h1>The Hungry Spot</h1>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#specials">Specials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <h2>Taste the Extraordinary</h2>
+            <p>Where culinary artistry meets unforgettable flavors.</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3>Our Story</h3>
+                <p>The Gourmet Haven was born from a passion for exceptional food and a desire to create a memorable dining experience. Our chefs meticulously craft each dish using the freshest, locally sourced ingredients, bringing you a symphony of flavors in every bite.</p>
+                <p>We believe in culinary excellence, warm hospitality, and a welcoming atmosphere where every guest feels like family. Join us for an unforgettable journey of taste.</p>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h3>Our Culinary Delights</h3>
+                <div class="menu-categories">
+                    <button class="menu-filter active" data-category="all">All</button>
+                    <button class="menu-filter" data-category="appetizers">Appetizers</button>
+                    <button class="menu-filter" data-category="main-courses">Main Courses</button>
+                    <button class="menu-filter" data-category="desserts">Desserts</button>
+                    <button class="menu-filter" data-category="drinks">Drinks</button>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item appetizers">
+                        <img src="https://natashaskitchen.com/wp-content/uploads/2020/07/Tomato-Bruschetta-Recipe-7.jpg" alt="Bruschetta">
+                        <h4>Classic Bruschetta</h4>
+                        <p>Toasted bread with fresh tomatoes, basil, garlic, and olive oil.</p>
+                        <span class="price">$12.00</span>
+                    </div>
+                    <div class="menu-item appetizers">
+                        <img src="https://media.istockphoto.com/id/593297194/photo/fried-calimari-rings-on-wooden-tray-with-dipping-sauce.jpg?s=612x612&w=0&k=20&c=cWJBsUK2hX4cJu4OsT0rF2U-Hy9al9I34koCNfESFK0=" alt="Crispy Calamari">
+                        <h4>Crispy Calamari</h4>
+                        <p>Lightly fried calamari served with spicy marinara sauce.</p>
+                        <span class="price">$15.00</span>
+                    </div>
+
+                    <div class="menu-item main-courses">
+                        <img src="https://media.istockphoto.com/id/800444104/photo/glazed-salmon-with-salad-by-soured-cream-dressing.jpg?s=612x612&w=0&k=20&c=uDoSJEeRO6HvNRPsUTOH0xUaL51i8N-N_LEVLD2yipw=" alt="Grilled Salmon">
+                        <h4>Pan-Seared Salmon</h4>
+                        <p>Atlantic salmon with asparagus and lemon-butter sauce.</p>
+                        <span class="price">$28.00</span>
+                    </div>
+                    <div class="menu-item main-courses">
+                        <img src="https://media.istockphoto.com/id/1622378800/photo/raw-fillet-steak-beef-meat-on-cutting-board.jpg?s=612x612&w=0&k=20&c=nhcG7-XDUOsMhrpQJ_avo2TJy6VwbgnzE2My6YEpBsM=" alt="Ribeye Steak">
+                        <h4>Prime Ribeye Steak</h4>
+                        <p>Grilled to perfection, served with mashed potatoes and seasonal vegetables.</p>
+                        <span class="price">$35.00</span>
+                    </div>
+                    <div class="menu-item main-courses">
+                        <img src="https://media.istockphoto.com/id/1200457977/photo/chicken-pasta-spaghetti-primavera.jpg?s=612x612&w=0&k=20&c=6VqfnVF0B4DEhCsJ4QD1BudqW7FrswR8VXAkSBkfvk0=" alt="Pasta Primavera">
+                        <h4>Vegetable Primavera</h4>
+                        <p>Fresh pasta tossed with a medley of seasonal vegetables in a light cream sauce.</p>
+                        <span class="price">$22.00</span>
+                    </div>
+
+                    <div class="menu-item desserts">
+                        <img src="https://media.istockphoto.com/id/1248489319/photo/tiramisu-cake-with-mint.jpg?s=612x612&w=0&k=20&c=bE6ntOpTO7S8T_Rr39cnNkV_252VUB8-vymkN9WsQRQ=" alt="Tiramisu">
+                        <h4>Classic Tiramisu</h4>
+                        <p>Layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa.</p>
+                        <span class="price">$9.00</span>
+                    </div>
+                    <div class="menu-item desserts">
+                        <img src="https://media.istockphoto.com/id/955973020/photo/fresh-berry-cheesecake-food-photography-recipe-idea.jpg?s=612x612&w=0&k=20&c=nBBXrNFtrfyxyNN8utx9UCuA6BJymsVIp5cKt748P9k=" alt="New York Cheesecake">
+                        <h4>New York Cheesecake</h4>
+                        <p>Rich and creamy cheesecake with a graham cracker crust.</p>
+                        <span class="price">$8.50</span>
+                    </div>
+
+                    <div class="menu-item drinks">
+                        <img src="https://media.istockphoto.com/id/479079920/photo/watermelon-mojito.jpg?s=612x612&w=0&k=20&c=t4bKU9u87_0x3Rj7lGNGOTO4rET6BTHpQ2hFLkO95H8=" alt="Mojito">
+                        <h4>Fresh Mint Mojito</h4>
+                        <p>Refreshing blend of rum, mint, lime, sugar, and soda water.</p>
+                        <span class="price">$10.00</span>
+                    </div>
+                    <div class="menu-item drinks">
+                        <img src="https://media.istockphoto.com/id/182717746/photo/espresso-coffee-cup-color-image.jpg?s=612x612&w=0&k=20&c=LGeYlM0h31rbQdFgYdt88386lw71pU-6I8_y5XDNXv4=" alt="Espresso">
+                        <h4>Espresso</h4>
+                        <p>Strong, concentrated coffee brewed to perfection.</p>
+                        <span class="price">$4.00</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="specials" class="specials-section">
+            <div class="container">
+                <h3>Today's Specials</h3>
+                <div class="special-item">
+                    <img src="https://media.istockphoto.com/id/1412266957/photo/tomato-bisque.jpg?s=612x612&w=0&k=20&c=LErEfbh3eIxPs-yx2CCT2dFvDpRd-CovcXlMdHg0Kfo=" alt="Lobster Bisque">
+                    <h4>Creamy Lobster Bisque</h4>
+                    <p>A rich and flavorful soup with succulent lobster pieces.</p>
+                    <span class="price">$18.00</span>
+                </div>
+                <div class="special-item">
+                    <img src="https://media.istockphoto.com/id/920033528/photo/homemade-braised-lamb-shanks.jpg?s=612x612&w=0&k=20&c=3VZ97Sf9MV9YUhIb8oewfeSDJzqhTFUTKRoFwz1QDHQ=" alt="Braised Lamb Shank">
+                    <h4>Slow-Braised Lamb Shank</h4>
+                    <p>Tender lamb shank cooked with root vegetables and red wine reduction.</p>
+                    <span class="price">$32.00</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h3>Contact Us / Make a Reservation</h3>
+                <div class="contact-info">
+                    <p><strong>Address:</strong> 789 Maple Street, Gastronomy Heights, CA 90210</p>
+                    <p><strong>Phone:</strong> +1 (555) 987-6543</p>
+                    <p><strong>Email:</strong> reservations@gourmethaven.com</p>
+                    <p><strong>Hours:</strong> Mon - Sat: 5:30 PM - 11:00 PM, Sun: 5:00 PM - 10:00 PM</p>
+                </div>
+                <form class="reservation-form">
+                    <h4>Online Reservation</h4>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Your Phone Number">
+                    <input type="date" required>
+                    <input type="time" value="19:00" required>
+                    <input type="number" placeholder="Number of Guests" min="1" max="10" required>
+                    <textarea placeholder="Special Requests (e.g., dietary restrictions)"></textarea>
+                    <button type="submit" class="btn">Book a Table</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 The Gourmet Haven. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuFilters = document.querySelectorAll('.menu-filter');
+            const menuItems = document.querySelectorAll('.menu-grid .menu-item');
+
+            menuFilters.forEach(filter => {
+                filter.addEventListener('click', () => {
+                    // Remove active class from all filters
+                    menuFilters.forEach(f => f.classList.remove('active'));
+                    // Add active class to the clicked filter
+                    filter.classList.add('active');
+
+                    const category = filter.dataset.category;
+
+                    menuItems.forEach(item => {
+                        if (category === 'all' || item.classList.contains(category)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // Sticky navigation logic
+            const stickyNavWrapper = document.querySelector('.sticky-nav-wrapper');
+            const header = document.getElementById('main-header'); // Get the header element
+
+            // Get the height of the header/hero section dynamically
+            const headerHeight = header.offsetHeight; 
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > headerHeight - stickyNavWrapper.offsetHeight) { // When scrolled past the hero
+                    stickyNavWrapper.classList.add('sticky-active');
+                } else {
+                    stickyNavWrapper.classList.remove('sticky-active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
